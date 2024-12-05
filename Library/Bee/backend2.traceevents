@@ -1,0 +1,290 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1733396918459168, "dur":59, "ph":"X", "name": "IPC_Client_InitializeAndConnectToParent",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733396918459261, "dur":26298, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733396918485570, "dur":87, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733396918485698, "dur":403, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733396918486127, "dur":3382, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733396918489510, "dur":4272374, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733396922761908, "dur":70, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733396922762128, "dur":89, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733396922762292, "dur":2420, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1733396918486537, "dur":2981, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733396918489528, "dur":2511, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733396918536933, "dur":736, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":1, "ts":1733396918537677, "dur":408, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1733396918538096, "dur":16568, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":1, "ts":1733396918554667, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\PlayerDataCache\\Win64\\Data\\ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1733396918555025, "dur":225, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\Playerd6ac89ca-inputdata.json" }}
+,{ "pid":12345, "tid":1, "ts":1733396918537675, "dur":17826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1733396918555840, "dur":677, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1733396918557145, "dur":220182, "ph":"X", "name": "AddBootConfigGUID",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1733396918779361, "dur":116, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1733396918779360, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1733396918779498, "dur":1037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/boot.config" }}
+,{ "pid":12345, "tid":1, "ts":1733396918780538, "dur":3981098, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733396918486641, "dur":2940, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733396918489587, "dur":452, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733396918490040, "dur":2033, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733396918492092, "dur":145, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Program Files\\Unity Hub\\2022.3.51f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\web.config" }}
+,{ "pid":12345, "tid":2, "ts":1733396918492076, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1733396918512363, "dur":1792, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1733396918514206, "dur":6481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918520736, "dur":4662, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918525565, "dur":6196, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918531837, "dur":9613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918541485, "dur":12640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918554162, "dur":5857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918560073, "dur":12864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918586337, "dur":66, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1733396918573015, "dur":13399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918586454, "dur":17371, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918603867, "dur":18738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1733396918622638, "dur":11262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1733396918633958, "dur":4127870, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733396918486744, "dur":2884, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733396918489636, "dur":350, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733396918489986, "dur":2103, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733396918492089, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1733396918524820, "dur":2949, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1733396918527821, "dur":127, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733396918527819, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733396918535765, "dur":84, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733396918527977, "dur":7890, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733396918535973, "dur":14189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733396918550204, "dur":6767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733396918557016, "dur":5586, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733396918562640, "dur":16901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733396918598144, "dur":72, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1733396918579610, "dur":18642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733396918598308, "dur":14972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1733396918613321, "dur":26157, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1733396918641204, "dur":4120616, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733396918486559, "dur":2998, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733396918489574, "dur":352, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733396918489926, "dur":2135, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733396918492104, "dur":126, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Program Files\\Unity Hub\\2022.3.51f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\mconfig\\config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1733396918492082, "dur":150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1733396918512095, "dur":1358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1733396918513490, "dur":1462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918514989, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918518809, "dur":148, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733396918521913, "dur":83, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733396918518965, "dur":3041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918522080, "dur":4109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918526273, "dur":5207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918531617, "dur":7994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918551568, "dur":455, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733396918539671, "dur":12393, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918552127, "dur":5134, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918557305, "dur":4583, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918561932, "dur":13247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918575212, "dur":12882, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918588174, "dur":16742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1733396918604945, "dur":64, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1733396918605013, "dur":27563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1733396918632641, "dur":4128971, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918486624, "dur":2949, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918489581, "dur":327, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918489909, "dur":2154, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918492066, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1733396918494627, "dur":2798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":5, "ts":1733396918497968, "dur":1137, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1733396918499257, "dur":1329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1733396918500902, "dur":1438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1733396918502519, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1733396918504098, "dur":18428, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918522588, "dur":3408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918530752, "dur":50, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918526153, "dur":4661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918530897, "dur":6283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918537217, "dur":12011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918549275, "dur":84, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918549370, "dur":4611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918559406, "dur":107, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918554035, "dur":5677, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918559762, "dur":6293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918566094, "dur":13732, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918598103, "dur":101, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918579919, "dur":18325, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918598319, "dur":19513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1733396918621388, "dur":56, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918617887, "dur":3578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1733396918621541, "dur":304, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1733396918621849, "dur":12526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1733396918634461, "dur":4127155, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733396918486659, "dur":2930, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733396918489598, "dur":696, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733396918490295, "dur":1782, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733396918492096, "dur":137, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Program Files\\Unity Hub\\2022.3.51f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\MonoBleedingEdge\\etc\\mono\\4.5\\machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1733396918492078, "dur":156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1733396918511215, "dur":1258, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1733396918512508, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918518760, "dur":192, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733396918514598, "dur":4426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918519128, "dur":3607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918522884, "dur":4454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918527631, "dur":8915, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918551174, "dur":565, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1733396918536625, "dur":15129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918551838, "dur":4269, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918556231, "dur":10661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918566935, "dur":18535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918585550, "dur":15512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918601113, "dur":18572, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1733396918619733, "dur":11486, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":6, "ts":1733396918631397, "dur":4130298, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733396918486696, "dur":2904, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733396918489609, "dur":380, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733396918489990, "dur":2066, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733396918492100, "dur":78, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Program Files\\Unity Hub\\2022.3.51f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\mono\\Managed\\UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918492357, "dur":119, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918492477, "dur":63, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918492542, "dur":266, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918492810, "dur":403, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918493215, "dur":100, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918493316, "dur":104, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918493422, "dur":272, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918493694, "dur":71, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918493766, "dur":252, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918494020, "dur":351, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918494373, "dur":228, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918494602, "dur":276, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Collections.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918494880, "dur":121, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918495002, "dur":62, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918495065, "dur":460, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918495527, "dur":269, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918495797, "dur":76, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\Bee\\PlayerScriptAssemblies\\Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918495875, "dur":68, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\PackageCache\\com.unity.collections@1.2.4\\Unity.Collections.LowLevel.ILSupport\\Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918495944, "dur":106, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\PackageCache\\com.unity.visualscripting@1.9.4\\Runtime\\VisualScripting.Flow\\Dependencies\\NCalc\\Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918496051, "dur":60, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\PackageCache\\com.unity.burst@1.8.18\\Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396918496230, "dur":373492, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"C:\\B\\Code\\Unity\\Jajal\\Pong 2D\\Pong 2D Project\\Library\\PackageCache\\com.unity.burst@1.8.18\\.Runtime\\bcl.exe" }}
+,{ "pid":12345, "tid":7, "ts":1733396918492058, "dur":377666, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":7, "ts":1733396918869732, "dur":55, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1733396918871576, "dur":3885009, "ph":"X", "name": "GenerateNativePluginsForAssemblies",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":7, "ts":1733396922759135, "dur":54, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396922759133, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":7, "ts":1733396922760059, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733396918486729, "dur":2887, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733396918489626, "dur":291, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733396918489917, "dur":2142, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733396918492102, "dur":102, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"D:\\Program Files\\Unity Hub\\2022.3.51f1\\Editor\\Data\\PlaybackEngines\\WindowsStandaloneSupport\\Variations\\win64_player_nondevelopment_mono\\UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1733396918492074, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1733396918525248, "dur":5558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1733396918530865, "dur":10539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733396918541443, "dur":13128, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733396918554608, "dur":5397, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733396918560069, "dur":13381, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733396918573488, "dur":14905, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733396918588431, "dur":15730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733396918604201, "dur":18306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1733396918634323, "dur":86, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1733396918622540, "dur":11880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1733396918634483, "dur":4127335, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733396918486805, "dur":2831, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733396918489644, "dur":648, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733396918490293, "dur":1773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733396918492067, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1733396918500880, "dur":1690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1733396918502643, "dur":1752, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1733396918504785, "dur":16593, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":9, "ts":1733396918521435, "dur":3799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733396918525299, "dur":7175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733396918532647, "dur":8974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733396918541650, "dur":13337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733396918555040, "dur":7199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733396918562305, "dur":13639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733396918575982, "dur":18666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733396918594691, "dur":10387, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1733396918605132, "dur":7604, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1733396918612814, "dur":5125, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1733396918621401, "dur":287, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1733396918618064, "dur":3634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1733396918621864, "dur":9874, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1733396918631785, "dur":4130089, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733396918486872, "dur":2778, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733396918489657, "dur":135, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733396918489793, "dur":2283, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733396918492078, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1733396918502070, "dur":1252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1733396918503546, "dur":1465, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918505509, "dur":3520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918509068, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918510550, "dur":2494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918513082, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918514680, "dur":3457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918519943, "dur":55, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733396918518214, "dur":1796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918520048, "dur":3631, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918523760, "dur":4237, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918528091, "dur":5040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918540605, "dur":79, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733396918533239, "dur":7460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918540770, "dur":12417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918556918, "dur":57, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733396918553221, "dur":3778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918557044, "dur":4159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918561281, "dur":13736, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918586298, "dur":93, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733396918575081, "dur":11324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918586446, "dur":18127, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918667760, "dur":91, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1733396918604676, "dur":63198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":10, "ts":1733396918667908, "dur":4093636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733396918486925, "dur":2739, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733396918489664, "dur":2382, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733396918493090, "dur":882, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1733396918493975, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1733396918494464, "dur":3056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/app.info" }}
+,{ "pid":12345, "tid":11, "ts":1733396918498070, "dur":1041, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":11, "ts":1733396918499265, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1733396918501073, "dur":1322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1733396918502537, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1733396918504228, "dur":621, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Temp\\StagingArea\\WindowsPlayer.exe" }}
+,{ "pid":12345, "tid":11, "ts":1733396918504228, "dur":622, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D.exe" }}
+,{ "pid":12345, "tid":11, "ts":1733396918504868, "dur":1267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D.exe" }}
+,{ "pid":12345, "tid":11, "ts":1733396918506261, "dur":3918, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918510208, "dur":1671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918511920, "dur":1826, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918513800, "dur":1970, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918515816, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918519629, "dur":4402, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.Collections.LowLevel.ILSupport.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918524160, "dur":3830, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918528084, "dur":5005, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918533185, "dur":8153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918541370, "dur":101, "ph":"X", "name": "EmitNodeStart",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733396918541475, "dur":12932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918554462, "dur":5011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918559657, "dur":6001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918565701, "dur":10553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918576339, "dur":22510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918598974, "dur":20798, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1733396918629063, "dur":98, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1733396918619828, "dur":9386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/resources.assets" }}
+,{ "pid":12345, "tid":11, "ts":1733396918629301, "dur":4132312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733396918486978, "dur":2705, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733396918489684, "dur":2397, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733396918492082, "dur":102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1733396918501896, "dur":1236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1733396918503892, "dur":1211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1733396918505549, "dur":3007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918508607, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918510282, "dur":2115, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918512433, "dur":1868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918514337, "dur":1847, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918516226, "dur":3692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918520009, "dur":4966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918525085, "dur":3804, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918529036, "dur":7951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918549187, "dur":165, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733396918537026, "dur":12340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918549409, "dur":14047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918563501, "dur":16824, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918580371, "dur":14256, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918614587, "dur":140, "ph":"X", "name": "EmitNodeFinish",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1733396918594674, "dur":20073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1733396918614795, "dur":1549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":12, "ts":1733396918616414, "dur":4394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":12, "ts":1733396918620873, "dur":8417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/B/Code/Unity/Jajal/Pong 2D/Build/Pong 2D_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1733396918629348, "dur":4132340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1733396922768300, "dur":1009, "ph":"X", "name": "ProfilerWriteOutput" }
+,
